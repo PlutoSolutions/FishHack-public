@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fishhack",
+  "version": "${version}",
+  "name": "FishHack",
+  "description": "cool mod",
+  "authors": [
+    "cattyn",
+    "mrnv",
+    "fuckyou.wtf",
+    "oyzip",
+    "amfero",
+    "thereal559"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cat.cattyn.fishhack.FishHack"
+    ]
+  },
+  "mixins": [
+    "fishhack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

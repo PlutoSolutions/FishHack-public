@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cat.cattyn.fishhack.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "MixinMinecraftClient",
+    "MixinClientPlayerEntity",
+    "MixinKeyboard",
+    "MixinInGameHud",
+    "IChatHud",
+    "MixinClientConnection",
+    "MixinBackgroundRenderer",
+    "MixinPlayerEntityModel",
+    "MixinHeldItemRenderer",
+    "IPlayerMoveC2SPacket",
+    "MixinGameRenderer",
+    "MixinClientWorld",
+    "MixinLivingEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
